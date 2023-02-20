@@ -1,0 +1,437 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "ObstacleAssult Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleAssult",
+				"Win64",
+				"Debug",
+				"F:\\ObstacleAssult\\ObstacleAssult.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssult Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleAssult",
+				"Win64",
+				"Debug",
+				"F:\\ObstacleAssult\\ObstacleAssult.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssult Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssult Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleAssult",
+				"Win64",
+				"Debug",
+				"F:\\ObstacleAssult\\ObstacleAssult.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssult Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleAssult",
+				"Win64",
+				"DebugGame",
+				"F:\\ObstacleAssult\\ObstacleAssult.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssult Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleAssult",
+				"Win64",
+				"DebugGame",
+				"F:\\ObstacleAssult\\ObstacleAssult.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssult Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssult Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleAssult",
+				"Win64",
+				"DebugGame",
+				"F:\\ObstacleAssult\\ObstacleAssult.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssult Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleAssult",
+				"Win64",
+				"Development",
+				"F:\\ObstacleAssult\\ObstacleAssult.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssult Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleAssult",
+				"Win64",
+				"Development",
+				"F:\\ObstacleAssult\\ObstacleAssult.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssult Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssult Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleAssult",
+				"Win64",
+				"Development",
+				"F:\\ObstacleAssult\\ObstacleAssult.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssult Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleAssult",
+				"Win64",
+				"Test",
+				"F:\\ObstacleAssult\\ObstacleAssult.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssult Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleAssult",
+				"Win64",
+				"Test",
+				"F:\\ObstacleAssult\\ObstacleAssult.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssult Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssult Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleAssult",
+				"Win64",
+				"Test",
+				"F:\\ObstacleAssult\\ObstacleAssult.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssult Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleAssult",
+				"Win64",
+				"Shipping",
+				"F:\\ObstacleAssult\\ObstacleAssult.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssult Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleAssult",
+				"Win64",
+				"Shipping",
+				"F:\\ObstacleAssult\\ObstacleAssult.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssult Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssult Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleAssult",
+				"Win64",
+				"Shipping",
+				"F:\\ObstacleAssult\\ObstacleAssult.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssultEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleAssultEditor",
+				"Win64",
+				"Debug",
+				"F:\\ObstacleAssult\\ObstacleAssult.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssultEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleAssultEditor",
+				"Win64",
+				"Debug",
+				"F:\\ObstacleAssult\\ObstacleAssult.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssultEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssultEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleAssultEditor",
+				"Win64",
+				"Debug",
+				"F:\\ObstacleAssult\\ObstacleAssult.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssultEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleAssultEditor",
+				"Win64",
+				"DebugGame",
+				"F:\\ObstacleAssult\\ObstacleAssult.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssultEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleAssultEditor",
+				"Win64",
+				"DebugGame",
+				"F:\\ObstacleAssult\\ObstacleAssult.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssultEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssultEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleAssultEditor",
+				"Win64",
+				"DebugGame",
+				"F:\\ObstacleAssult\\ObstacleAssult.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssultEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleAssultEditor",
+				"Win64",
+				"Development",
+				"F:\\ObstacleAssult\\ObstacleAssult.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssultEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ObstacleAssultEditor",
+				"Win64",
+				"Development",
+				"F:\\ObstacleAssult\\ObstacleAssult.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssultEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssultEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ObstacleAssultEditor",
+				"Win64",
+				"Development",
+				"F:\\ObstacleAssult\\ObstacleAssult.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		}
+	]
+}

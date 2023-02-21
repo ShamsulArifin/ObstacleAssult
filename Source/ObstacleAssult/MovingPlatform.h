@@ -26,10 +26,12 @@ public:
 private:
 
   // Plaform velocity
-  UPROPERTY(EditAnywhere, Category = "Moving Platform")
+  UPROPERTY(EditAnywhere, Category = "Moving")
   FVector PlatformVelocity = FVector(100, 0, 0);
-  UPROPERTY(EditAnywhere, Category = "Moving Platform")
+  UPROPERTY(EditAnywhere, Category = "Moving")
   float MoveDistance = 100;
+  UPROPERTY(EditAnywhere, Category = "Rotation")
+  FRotator RotationVelocity;
   // Start Location
   FVector StartLocation;
 
